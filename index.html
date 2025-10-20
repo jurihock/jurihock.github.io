@@ -1,137 +1,183 @@
-<html>
-<head>
+<!doctype html>
 
-	<title>jurihock.de</title>
+<html lang="en" data-bs-theme="auto">
 
-	<style>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Juergen Hock" />
+    <meta name="description" content="" />
+    <title>jurihock.de</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <meta name="theme-color" content="black" />
+    <style> html { background-color: black; } </style>
+  </head>
 
-		.clear
-		{
-			margin: 0;
-			padding: 0;
+  <body>
 
-			background-color: black;
-			color: white;
+    <header>
+      <img src="assets/FYT.jpg" class="img-fluid">
+    </header>
 
-			font-family: serif;
-			font-size: xx-large;
+    <div class="col-lg-8 p-5 py-5 mx-auto">
 
-			cursor: default;
-		}
+      <main>
 
-		.center
-		{
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			height: 100%;
-		}
+        <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+          <div class="container-fluid">
+            <div class="d-md-flex d-xs-block align-items-center">
+              <div class="flex-grow-0 ms-3">
+                <h1 class="display-5 fw-bold">Hi!</h1>
+                <p class="col-lg-8 fs-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+              <div class="flex-shrink-1">
+                <img src="assets/13.jpg" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
 
-		#cursor
-		{
-			animation: blink 500ms linear infinite alternate;
-		}
+        <h1 class="text-body-emphasis">Get started with Bootstrap</h1>
+        <p class="fs-5 col-md-8">
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <div class="mb-5">
+          <a href="#" class="btn btn-primary btn-lg px-4"
+            >Download examples</a
+          >
+        </div>
+        <hr class="col-3 col-md-2 mb-5" />
+        <div class="row g-5">
+          <div class="col-md-6">
+            <h2 class="text-body-emphasis">Starter projects</h2>
+            <p>
+              Ready to go beyond the starter template? Check out these open
+              source projects that you can quickly duplicate to a new GitHub
+              repository.
+            </p>
+            <ul class="list-unstyled ps-0">
+              <li>
+                <a
+                  class="icon-link mb-1"
+                  href="https://github.com/twbs/examples/tree/main/icons-font"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  <svg class="bi" width="16" height="16" aria-hidden="true">
+                    <use xlink:href="#arrow-right-circle"></use>
+                  </svg>
+                  Bootstrap npm starter
+                </a>
+              </li>
+              <li>
+                <a
+                  class="icon-link mb-1"
+                  href="https://github.com/twbs/examples/tree/main/parcel"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  <svg class="bi" width="16" height="16" aria-hidden="true">
+                    <use xlink:href="#arrow-right-circle"></use>
+                  </svg>
+                  Bootstrap Parcel starter
+                </a>
+              </li>
+              <li>
+                <a
+                  class="icon-link mb-1"
+                  href="https://github.com/twbs/examples/tree/main/vite"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  <svg class="bi" width="16" height="16" aria-hidden="true">
+                    <use xlink:href="#arrow-right-circle"></use>
+                  </svg>
+                  Bootstrap Vite starter
+                </a>
+              </li>
+              <li>
+                <a
+                  class="icon-link mb-1"
+                  href="https://github.com/twbs/examples/tree/main/webpack"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  <svg class="bi" width="16" height="16" aria-hidden="true">
+                    <use xlink:href="#arrow-right-circle"></use>
+                  </svg>
+                  Bootstrap Webpack starter
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h2 class="text-body-emphasis">Guides</h2>
+            <p>
+              Read more detailed instructions and documentation on using or
+              contributing to Bootstrap.
+            </p>
+            <ul class="list-unstyled ps-0">
+              <li>
+                <a
+                  class="icon-link mb-1"
+                  href="../getting-started/introduction"
+                >
+                  <svg class="bi" width="16" height="16" aria-hidden="true">
+                    <use xlink:href="#arrow-right-circle"></use>
+                  </svg>
+                  Bootstrap quick start guide
+                </a>
+              </li>
+              <li>
+                <a class="icon-link mb-1" href="../getting-started/webpack">
+                  <svg class="bi" width="16" height="16" aria-hidden="true">
+                    <use xlink:href="#arrow-right-circle"></use>
+                  </svg>
+                  Bootstrap Webpack guide
+                </a>
+              </li>
+              <li>
+                <a class="icon-link mb-1" href="../getting-started/parcel">
+                  <svg class="bi" width="16" height="16" aria-hidden="true">
+                    <use xlink:href="#arrow-right-circle"></use>
+                  </svg>
+                  Bootstrap Parcel guide
+                </a>
+              </li>
+              <li>
+                <a class="icon-link mb-1" href="../getting-started/vite">
+                  <svg class="bi" width="16" height="16" aria-hidden="true">
+                    <use xlink:href="#arrow-right-circle"></use>
+                  </svg>
+                  Bootstrap Vite guide
+                </a>
+              </li>
+              <li>
+                <a class="icon-link mb-1" href="../getting-started/contribute">
+                  <svg class="bi" width="16" height="16" aria-hidden="true">
+                    <use xlink:href="#arrow-right-circle"></use>
+                  </svg>
+                  Contributing to Bootstrap
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </main>
 
-		@keyframes blink
-		{
-			50%  { opacity: 0; }
-			100% { opacity: 1; }
-		}
+      <footer class="pt-5 my-5 text-body-secondary border-top">
+        &copy; 2025 Juergen Hock
+      </footer>
 
-	</style>
+    </div>
 
-	<script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
-		function random(min, max)
-		{
-			return Math.random() * Math.abs(max - min) + Math.min(min, max);
-		}
+  </body>
 
-		function sleep(ms)
-		{
-			return new Promise(resolve => setTimeout(resolve, ms));
-		}
-
-		function type(letter, ms = 100)
-		{
-			let element = document.getElementById('slogan');
-
-			element.innerHTML += letter;
-
-			return sleep(ms + random(-15, +15));
-		}
-
-		function revert(ms = 100)
-		{
-			let element = document.getElementById('slogan');
-
-			element.innerHTML = element.innerHTML.slice(0, -1);
-
-			return sleep(ms + random(-15, +15));
-		}
-
-		async function print(word)
-		{
-			let phrase = ' ' + word + (word != 'world' ? ' ' + 'world' : '');
-
-			for (let letter of phrase)
-			{
-				await type(letter)
-			}
-
-			await sleep(random(1500, 5000));
-
-			for (let letter of phrase)
-			{
-				await revert();
-			}
-
-			await sleep(random(500, 2500));
-
-			return word;
-		}
-
-		async function vary(word)
-		{
-			let datamuse = 'https://api.datamuse.com/words?rel_jjb=';
-			let response = await fetch(datamuse + word);
-			let words = await response.json();
-			let random = Math.floor(Math.random() * words.length);
-
-			return words[random].word;
-		}
-
-		async function loop(word)
-		{
-			print(word).then(vary).then(loop).catch(reset);
-		}
-
-		async function reset()
-		{
-			if (!document.getElementById('slogan').innerHTML)
-			{
-				for (let letter of 'hello')
-				{
-					await type(letter);
-				}
-			}
-
-			loop('world');
-		}
-
-	</script>
-
-</head>
-<body class="clear">
-
-	<div class="center">
-		<span id="slogan"></span>
-		<span id="cursor">_</span>
-	</div>
-
-	<script>
-		sleep(random(3000, 5000)).then(reset)
-	</script>
-
-</body>
 </html>
